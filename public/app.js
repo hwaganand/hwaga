@@ -1,6 +1,6 @@
 /* =========================================================
    Vow Vision — Wedding AI Studio
-   Gemini API: gemini-2.0-flash-preview-image-generation
+   Gemini API: gemini-3-pro-image-preview
    ========================================================= */
 
 'use strict';
@@ -389,7 +389,7 @@ OUTPUT: Single portrait photograph, no text overlays, no borders, no watermarks.
 // ── Gemini API Call ────────────────────────────────────────
 async function callGeminiApi() {
   const prompt = buildPrompt();
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key=${state.apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-image-preview:generateContent?key=${state.apiKey}`;
 
   const requestBody = {
     contents: [
