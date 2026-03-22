@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vow Vision — Wedding AI Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── API Key Modal ─────────────────────────────────────── -->
+  <div id="modal-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-logo">
+        <span class="logo-mark">✦</span>
+      </div>
+      <h1 id="modal-title" class="modal-title">Vow Vision</h1>
+      <p class="modal-subtitle">Wedding AI Photo Studio</p>
+      <p class="modal-desc">
+        Enter your Gemini API key to begin crafting timeless wedding portraits.
+      </p>
+      <div class="input-group">
+        <label for="api-key-input" class="input-label">Gemini API Key</label>
+        <div class="input-wrapper">
+          <input
+            type="password"
+            id="api-key-input"
+            class="text-input"
+            placeholder="AIza..."
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button id="toggle-key-visibility" class="icon-btn" aria-label="Toggle visibility" type="button">
+            <svg id="eye-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </button>
+        </div>
+      </div>
+      <p id="modal-error" class="modal-error" role="alert" aria-live="polite"></p>
+      <button id="modal-submit" class="btn btn-primary btn-full">
+        Begin Session
+      </button>
+      <p class="modal-note">Key stored in session only — never sent to our servers.</p>
+    </div>
+  </div>
+
+  <!-- ─── Main App ─────────────────────────────────────────── -->
+  <div id="app" class="app hidden">
+
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="site-logo">
+          <span class="logo-mark-sm">✦</span>
+          <span class="logo-text">Vow Vision</span>
+        </div>
+        <button id="change-key-btn" class="btn btn-ghost btn-sm">Change API Key</button>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h2 class="hero-title">Craft Your <em>Perfect</em><br/>Wedding Portrait</h2>
+      <p class="hero-sub">AI-powered luxury wedding photography, tailored to your faces and vision.</p>
+    </section>
+
+    <!-- Main content -->
+    <main class="main-content">
+
+      <!-- Step 1: Upload Photos -->
+      <section class="step-section">
+        <div class="step-header">
+          <span class="step-num">01</span>
+          <h3 class="step-title">Upload Portraits</h3>
+        </div>
+        <div class="upload-grid">
+          <!-- Groom -->
+          <div class="upload-card" id="groom-card">
+            <input type="file" id="groom-file" accept="image/*" class="file-input" aria-label="Upload groom photo" />
+            <label for="groom-file" class="upload-label">
+              <div class="upload-preview" id="groom-preview">
+                <div class="upload-placeholder">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  <span>Groom</span>
+                </div>
+              </div>
+              <span class="upload-name">Groom's Photo</span>
+            </label>
+            <button class="clear-photo-btn hidden" id="groom-clear" aria-label="Remove groom photo" type="button">✕</button>
+          </div>
+          <!-- Bride -->
+          <div class="upload-card" id="bride-card">
+            <input type="file" id="bride-file" accept="image/*" class="file-input" aria-label="Upload bride photo" />
+            <label for="bride-file" class="upload-label">
+              <div class="upload-preview" id="bride-preview">
+                <div class="upload-placeholder">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  <span>Bride</span>
+                </div>
+              </div>
+              <span class="upload-name">Bride's Photo</span>
+            </label>
+            <button class="clear-photo-btn hidden" id="bride-clear" aria-label="Remove bride photo" type="button">✕</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Step 2: Scene Selection -->
+      <section class="step-section">
+        <div class="step-header">
+          <span class="step-num">02</span>
+          <h3 class="step-title">Choose Your Scene</h3>
+        </div>
+        <div class="scene-grid" id="scene-grid" role="radiogroup" aria-label="Background scene">
+          <!-- Scenes generated by JS -->
+        </div>
+        <div class="custom-scene-wrap">
+          <label for="custom-scene" class="input-label">Custom Scene Description</label>
+          <textarea
+            id="custom-scene"
+            class="text-input textarea"
+            placeholder="e.g. Misty lakeside at golden hour, surrounded by weeping willows..."
+            rows="3"
+          ></textarea>
+        </div>
+      </section>
+
+      <!-- Step 3: Style Options -->
+      <section class="step-section">
+        <div class="step-header">
+          <span class="step-num">03</span>
+          <h3 class="step-title">Style &amp; Format</h3>
+        </div>
+        <div class="options-grid">
+          <!-- Aspect Ratio -->
+          <div class="option-group">
+            <p class="option-group-label">Aspect Ratio</p>
+            <div class="pill-group" id="ratio-group" role="radiogroup" aria-label="Aspect ratio">
+              <button class="pill active" data-value="1:1" role="radio" aria-checked="true">1:1</button>
+              <button class="pill" data-value="4:3" role="radio" aria-checked="false">4:3</button>
+              <button class="pill" data-value="16:9" role="radio" aria-checked="false">16:9</button>
+              <button class="pill" data-value="3:4" role="radio" aria-checked="false">3:4</button>
+            </div>
+          </div>
+          <!-- Shooting Style -->
+          <div class="option-group">
+            <p class="option-group-label">Shooting Style</p>
+            <div class="pill-group" id="style-group" role="radiogroup" aria-label="Shooting style">
+              <button class="pill active" data-value="cinematic" role="radio" aria-checked="true">Cinematic</button>
+              <button class="pill" data-value="editorial" role="radio" aria-checked="false">Editorial</button>
+              <button class="pill" data-value="fine-art" role="radio" aria-checked="false">Fine Art</button>
+              <button class="pill" data-value="documentary" role="radio" aria-checked="false">Documentary</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Generate Button -->
+      <section class="generate-section">
+        <button id="generate-btn" class="btn btn-primary btn-generate" disabled>
+          <span id="generate-label">Generate Portrait</span>
+          <span id="generate-spinner" class="spinner hidden" aria-hidden="true"></span>
+        </button>
+        <p id="generate-hint" class="generate-hint">Upload both portraits to begin.</p>
+      </section>
+
+      <!-- Result -->
+      <section id="result-section" class="result-section hidden">
+        <div class="step-header">
+          <span class="step-num">✦</span>
+          <h3 class="step-title">Your Portrait</h3>
+        </div>
+        <div class="result-frame">
+          <img id="result-image" class="result-img" alt="Generated wedding portrait" />
+        </div>
+        <div class="result-actions">
+          <button id="download-btn" class="btn btn-primary">Download Image</button>
+          <button id="regenerate-btn" class="btn btn-secondary">Regenerate</button>
+        </div>
+      </section>
+
+      <!-- Error -->
+      <div id="error-banner" class="error-banner hidden" role="alert" aria-live="assertive">
+        <span id="error-message"></span>
+        <button id="error-close" class="icon-btn" aria-label="Dismiss error" type="button">✕</button>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>Vow Vision &mdash; Every love story deserves a timeless frame.</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
