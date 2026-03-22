@@ -440,6 +440,7 @@ async function callGeminiApi() {
   }
 
   const data = await response.json();
+  console.log('Gemini API response:', JSON.stringify(data, null, 2));
 
   // Extract image from response
   const candidates = data?.candidates;
