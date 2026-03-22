@@ -418,7 +418,7 @@ async function callGeminiApi() {
       },
     ],
     generationConfig: {
-      responseModalities: ['IMAGE'],
+      responseModalities: ['TEXT', 'IMAGE'],
       temperature: 1,
       topP: 0.95,
     },
