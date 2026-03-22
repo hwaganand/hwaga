@@ -456,12 +456,11 @@ async function callGeminiApi() {
   // Find the image part
   const imagePart = parts.find(p => p.inline_data?.mime_type?.startsWith('image/'));
   if (!imagePart) {
-    // Check if there's a text error
     const textPart = parts.find(p => p.text);
     if (textPart) {
-      throw new Error(`API returned text instead of image: ${textPart.text}`);
+      throw new Error(`API 텍스트 응답: ${textPart.text}`);
     }
-    throw new Error('No image data in the API response. Please try again.');
+    throw new Error(`이미지 없음. parts 구조: ${JSON.stringify(parts)}`);
   }
 
   const { mime_type, data: imageBase64 } = imagePart.inline_data;
