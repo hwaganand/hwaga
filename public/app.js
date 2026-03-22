@@ -454,16 +454,21 @@ async function callGeminiApi() {
   }
 
   // Find the image part
-  const imagePart = parts.find(p => p.inline_data?.mime_type?.startsWith('image/'));
+  const imagePart = parts.find(p =>
+    p.inline_data?.mime_type?.startsWith('image/') ||
+    p.inlineData?.mimeType?.startsWith('image/')
+  );
   if (!imagePart) {
     const textPart = parts.find(p => p.text);
     if (textPart) {
       throw new Error(`API 텍스트 응답: ${textPart.text}`);
     }
-    throw new Error(`이미지 없음. parts 구조: ${JSON.stringify(parts)}`);
+    throw new Error('No image data in the API response. Please try again.');
   }
 
-  const { mime_type, data: imageBase64 } = imagePart.inline_data;
+  const inlineData = imagePart.inline_data || imagePart.inlineData;
+  const mime_type = inlineData.mime_type || inlineData.mimeType;
+  const imageBase64 = inlineData.data;
   return `data:${mime_type};base64,${imageBase64}`;
 }
 
