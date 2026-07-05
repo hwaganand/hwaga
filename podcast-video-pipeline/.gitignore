@@ -1,0 +1,14 @@
+# 비밀키
+.env
+
+# 입력/결과물 (용량 큼)
+input/*.mp3
+input/*.wav
+input/*.m4a
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

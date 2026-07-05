@@ -1,0 +1,33 @@
+# 팟캐스트 영상 파이프라인 설정
+# 여기 값이 기본값을 덮어쓰고, CLI 인자가 다시 이 값을 덮어씁니다.
+
+# 세그먼트(=이미지) 개수
+segments: 100
+
+# 결과물 폴더
+output_dir: output
+
+# faster-whisper 모델 크기: tiny / base / small / medium / large-v3
+# 한국어 정확도가 중요하면 medium 이상 권장 (느려짐)
+whisper_model: small
+language: ko
+
+# Gemini 모델
+text_model: gemini-2.5-flash
+image_model: gemini-2.5-flash-image   # "nano banana"
+
+# 이미지 스타일 가이드 (모든 프롬프트에 고정 반영)
+style_guide: >-
+  따뜻하고 밝은 톤, 고령층이 편안하게 볼 수 있는 삽화 스타일,
+  부드러운 파스텔 색감, 자극적이지 않은 평화로운 분위기,
+  warm and bright tone, gentle storybook illustration for senior viewers
+
+# 영상 설정
+resolution: 1280x720   # 유튜브 업로드용이면 1920x1080 권장
+fps: 24
+crossfade: 0.0         # 초 단위. 0.5 정도면 부드러운 전환 (렌더링 시간 증가)
+subtitles: false       # true면 세그먼트 텍스트를 자막으로 오버레이
+
+# API 재시도 설정
+max_retries: 5
+retry_base_delay: 2.0
