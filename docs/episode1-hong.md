@@ -64,6 +64,32 @@ MIN-JUN: "근데 앞으로도 계속 이럴 거예요."
 
 ---
 
+## 0-1. 파이프라인 검증 완료 ★
+
+**컷 6을 Seedance 2.5로 실제 생성해서 확인했다. 수정 없이 확정.**
+
+| 검증 항목 | 결과 |
+|---|---|
+| BGM 차단 (`no background music, no score, no soundtrack`) | ✅ |
+| 대사 겹침 (OVERLAP 블록) | ✅ |
+| 얼굴 유지 (레퍼런스 2인 동시) | ✅ |
+| 앰비언스 소거 (손 닿는 순간) | ✅ |
+
+생성 조건: `seedance_2_5` / `omni_reference` / 16:9 / 10초 / 1080p / `generate_audio: true`
+job `29f0a60e-bff1-4599-86e2-2c8cd967e1b4`
+
+**이 컷의 프롬프트 구조를 나머지 9컷에 그대로 쓴다.**
+특히 아래 세 가지는 검증된 문구이므로 바꾸지 않는다.
+
+1. VOICES 섹션에 프로필 **원문 전체**를 넣는다 (태그 참조 금지)
+2. 네거티브에 `no background music, no score, no soundtrack` **세 개를 다** 넣는다
+3. 대사 없는 컷에는 `Zero speakers` 잠금을 명시한다
+
+⚠️ 중간에 "IN THE DARK" 프리셋 추천이 뜨면 거절한다 (`declined_preset_id`).
+밝은 카페 씬과 정반대다.
+
+---
+
 ## 1. 홍자매 문법 vs 임성한 문법
 
 정반대다. 같은 컷을 정확히 반대로 찍는다.
