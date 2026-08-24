@@ -5,7 +5,73 @@
 
 ---
 
-## 0. 기준 이미지
+## 0. 확정된 시트 ★
+
+신랑은 시트가 **두 벌**이다. 용도가 다르다.
+
+| 태그 | 의상 | job | 용도 |
+|---|---|---|---|
+| `@char_MINJUN_base_v2` | 아이보리 포플린 셔츠 + 블랙 테일러드 슬랙스 + 블랙 더비 | `67b1d302-0a28-4b4b-8ecb-6343f1eaecdd` | **얼굴 기준.** 표정·턴어라운드 생성용 |
+| `@char_MINJUN_suit_v1` | **네이비 풀정장** | `02b92aef-d68d-4ca7-bf19-d3e9454d3454` | **1화 소개팅 씬 전용** ✅확정 |
+
+⚠️ **1화 컷을 뽑을 때는 반드시 suit 시트를 레퍼런스로 건다.**
+base 시트를 걸고 프롬프트로 정장을 설명하면 컷마다 정장 디테일이 달라진다.
+
+### `@char_MINJUN_suit_v1` 의상 고정 문구
+
+```
+A FULL MATCHING SUIT: a navy wool single-breasted two-button suit jacket,
+notch lapels, fitted through the waist, with matching navy wool suit
+trousers in the same fabric, straight narrow leg with a sharp pressed
+crease, breaking cleanly at the shoe. Underneath, a crisply ironed
+light-blue oxford shirt buttoned all the way to the top, and a thin
+charcoal knit tie neatly knotted. Brown leather loafers, visibly brand
+new. A silver metal watch on the LEFT wrist. No pocket square, no bag,
+no other accessories.
+```
+
+네거티브 (블레이저+치노로 되돌아가는 것을 막는다):
+```
+no mismatched jacket and trousers, no chinos, no beige or light-colored
+trousers, no blazer with contrasting pants, no three-piece suit, no waistcoat
+```
+
+**이 정장의 "과하게 차려입은 티"가 1화 코미디의 핵심이다.**
+카페 소개팅에 풀정장은 과하다 — 그게 포인트다.
+
+---
+
+## 0-1. 얼굴 고정 문구 (두 시트 공통)
+
+```
+An extremely handsome South Korean man in his late 20s with a slim V-line
+oval face, a delicate but clearly defined jawline and a narrow chin, high
+yet soft cheekbones. Almond eyes with clear double eyelids, warm dark-brown
+irises and long dark lashes, a calm steady gaze. Thick straight dark
+eyebrows set slightly low and close to the eyes. A straight narrow nose
+bridge with a small refined tip. Soft full lips with a well-defined cupid's
+bow and a natural muted-rose tone. Fair, smooth warm-ivory skin, clear and
+blemish-free with only the very finest natural texture.
+Medium-length near-black hair, voluminous on top with soft loose waves and
+a fringe swept to one side across the forehead, tapered short at the sides
+with the ears exposed, soft matte finish, styled and static with no wind.
+Tall and very slim with narrow shoulders and long legs.
+```
+
+외모 네거티브 잠금:
+```
+no rounder or younger babyface, no heavier or muscular build, no facial
+hair or stubble, no glasses, no earrings, no visible tattoos, no straight
+flat hair, no tight curls, no wind-blown hair
+```
+
+⚠️ 보이스 프로필과 같은 규칙이다 — **토씨 하나 바꾸지 않고 복붙한다.**
+처음 드리프트가 났던 이유는 텍스트 프로필과 이미지가 따로 놀았기 때문이다.
+지금은 이 문구로 시트를 뽑았으므로 문구와 이미지가 일치한다.
+
+---
+
+## 0-2. 원본 기준 이미지
 
 사용자가 확정한 3분할 시트(전신 정면 / 전신 후면 / 얼굴 클로즈업)를 **사진1로 확정**한다.
 남은 산출물은 두 장:
