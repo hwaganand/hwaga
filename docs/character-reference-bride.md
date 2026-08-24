@@ -9,7 +9,7 @@
 
 | # | 구성 | 상태 |
 |---|---|---|
-| 사진1 | 전신 정면(얼굴 비노출) / 전신 후면 / 얼굴 클로즈업 | ✅ **확정** (기준 이미지) |
+| 사진1 | 전신 정면(얼굴 비노출) / 전신 후면 / 얼굴 클로즈업 | ✅ **확정** — job `8ef87687-63e0-40b6-bd72-c5f964c0c702` |
 | 사진2 | 표정 4종 | ⬜ 생성 대기 |
 | 사진3 | 얼굴 4방향 턴어라운드 | ⬜ 생성 대기 |
 
@@ -43,7 +43,7 @@
 작고 곧은 코, 둥근 코끝.
 또렷한 큐피드 보우의 작고 도톰한 입술, 자연스러운 로즈핑크 톤, 은은한 윤기.
 매우 밝고 매끈한 도자기 같은 피부, 촉촉한 광채,
-오른쪽 볼에 작은 점 하나.
+정면에서 볼 때 화면 오른쪽 볼에 작은 점 하나.
 귀에는 작은 진주 스터드 귀걸이.
 ```
 
@@ -57,7 +57,7 @@ Soft straight eyebrows, thin and natural.
 Small straight nose with a rounded tip.
 Small full lips with a well-defined cupid's bow, natural rose-pink tone, subtle sheen.
 Very fair smooth porcelain skin with a dewy glow,
-a single small beauty mark on the right cheek.
+a single small beauty mark on the cheek, appearing on the right side of frame in a front-facing view.
 Small pearl stud earrings.
 ```
 
@@ -66,7 +66,7 @@ Small pearl stud earrings.
 **한글**
 ```
 검정에 가까운 짙은 브라운 생머리, 가슴 아래까지 오는 긴 길이.
-숱 있는 일자 앞머리가 눈썹을 덮음. 매끈하고 윤기 있는 결, 컬 없음.
+가볍고 공기감 있는 시스루 뱅이 이마 위로 흘러내림(숱 있는 일자 뱅 아님). 매끈하고 윤기 있는 결, 컬 없음.
 뒷머리는 가운데에서 자연스럽게 흘러내림.
 바람에 날리지 않은 고정 스타일링.
 ```
@@ -74,7 +74,7 @@ Small pearl stud earrings.
 **English**
 ```
 Dark near-black brown straight hair, long, falling below the chest.
-Full blunt straight fringe covering the eyebrows.
+Airy wispy see-through fringe across the forehead, NOT a thick blunt fringe.
 Sleek glossy texture with no curl.
 Hair falls naturally down the back.
 Styled and static with no wind.
@@ -98,22 +98,37 @@ Petite slim build, slender arms and legs, narrow shoulders.
 
 | 항목 | 확정값 |
 |---|---|
-| 배경 | 중성 미디엄 그레이 심리스 스튜디오 |
-| 조명 | 부드러운 정면 확산광, 그림자 거의 없음 |
-| 의상 | 그레이 립드 니트 가디건(단추 일부만 잠금) + 화이트 이너 톱 / 블랙 플리츠 미니스커트 / 화이트·블랙 로우탑 스니커즈 |
-| 액세서리 | 작은 진주 스터드 귀걸이, 뒷머리에 작은 다크 리본 |
+| 배경 | **웜 베이지** 심리스 스튜디오 (신랑과 통일) |
+| 조명 | 부드러운 웜 확산광, 그림자 약함 (신랑과 통일) |
+| 상의 | **크림 아이보리** 립드 니트 가디건 + 화이트 이너 톱 |
+| 하의 | **블랙 슬림핏 테일러드 슬랙스** (기지 소재, 발목 길이, 주름선) |
+| 신발 | 블랙 가죽 로퍼 |
+| 앞머리 | **에어리 시스루 뱅** (숱 있는 일자 뱅 아님) |
+| 액세서리 | 작은 진주 스터드 귀걸이 |
 
-### ⚠️ 신랑 시트와 세트가 다르다
+### 신랑과 세트가 맞춰져 있다
 
 | | 신랑 | 신부 |
 |---|---|---|
-| 배경 | 웜 베이지 | **미디엄 그레이** |
-| 조명 | 웜 확산광 | **뉴트럴 확산광** |
+| 배경 | 웜 베이지 | 웜 베이지 |
+| 조명 | 웜 확산광 | 웜 확산광 |
+| 상의 | 아이보리 포플린 셔츠 | 크림 아이보리 니트 가디건 |
+| 하의 | 블랙 테일러드 슬랙스 | 블랙 테일러드 슬랙스 |
+| 신발 | 블랙 더비 | 블랙 로퍼 |
 
-각 캐릭터 안에서는 일관되므로 **레퍼런스 기능에는 문제 없다.**
-다만 나중에 **투샷으로 합성할 때** 두 사람의 배경·색온도가 안 맞는다.
-투샷이 필요해지면 그 시점에 한쪽을 상대 톤으로 다시 뽑는 게 맞다 —
-지금 얼굴이 확정된 시트를 건드리는 것보다 낫다.
+**상의 아이보리 / 하의 블랙**이 두 사람 모두 동일하다. 투샷이 바로 된다.
+
+#### 여기까지 온 경위 (같은 실수 반복 방지)
+
+처음엔 신부가 어려 보이는 원인을 **스커트 길이**로 봤다. 틀렸다.
+미디 스커트 + 가디건 + 로퍼로 갔더니 나이는 올라갔지만 촌스러워졌다.
+
+실제 원인은 **신발과 앞머리**였다.
+- 미니스커트 + 스니커즈 + 일자뱅 = 교복
+- 미니스커트 + 로퍼 + 시스루뱅 = 20대 중반
+
+최종적으로 스커트를 아예 **블랙 테일러드 슬랙스**로 바꾸면서 해결됐다.
+남자가 같은 블랙 슬랙스를 입고 있어서 커플 룩이 정확히 맞아떨어진다.
 
 ---
 
@@ -124,7 +139,7 @@ Petite slim build, slender arms and legs, narrow shoulders.
 **한글**
 ```
 첨부한 레퍼런스 이미지와 완전히 동일한 인물.
-중성 미디엄 그레이 심리스 배경, 얇은 세로 구분선으로 나눈 4분할 구도.
+웜 베이지 심리스 배경, 얇은 세로 구분선으로 나눈 4분할 구도.
 각 패널은 목까지만 보이는 정면 클로즈업이며, 표정만 다르게 연출:
 
 1) 어이없다는 듯 눈을 살짝 치켜뜬 표정 — 한쪽 눈썹이 올라가고 입꼬리는 내려감
@@ -135,7 +150,7 @@ Petite slim build, slender arms and legs, narrow shoulders.
 {얼굴 특징 고정 문구}
 {헤어 고정 문구}
 
-의상: 그레이 립드 니트 가디건과 화이트 이너 톱 — 4패널 동일.
+의상: 크림 아이보리 립드 니트 가디건과 화이트 이너 톱 — 4패널 동일.
 조명: 부드러운 정면 확산광, 4패널 방향과 톤 완전 동일.
 헤어스타일, 앞머리 길이, 카메라 각도, 얼굴 생김새는 4패널 모두 완전히 동일하게 유지.
 
@@ -149,7 +164,7 @@ Petite slim build, slender arms and legs, narrow shoulders.
 ```
 Expression sheet of the EXACT SAME PERSON as in the attached reference image —
 same face, same hair, same skin tone, no change of identity.
-Neutral medium-gray seamless background, 4-panel composition divided by
+Warm beige subtly textured seamless background, 4-panel composition divided by
 thin vertical dividers. Each panel is a front-facing close-up cropped at the neck,
 differing ONLY in expression:
 
@@ -164,7 +179,7 @@ differing ONLY in expression:
 {fixed facial-identity phrase}
 {fixed hair phrase}
 
-Wardrobe: gray ribbed knit cardigan over a white inner top — identical in all 4 panels.
+Wardrobe: cream ivory ribbed knit cardigan over a white inner top — identical in all 4 panels.
 Lighting: soft frontal diffused light, identical direction and tone across all 4 panels.
 Keep hairstyle, fringe length, camera angle, head size and facial identity
 fully identical across all four panels.
@@ -183,7 +198,7 @@ no change of facial identity between panels.
 **한글**
 ```
 첨부한 레퍼런스 이미지와 완전히 동일한 인물.
-중성 미디엄 그레이 심리스 배경, 얇은 세로 구분선으로 나눈 4분할 구도.
+웜 베이지 심리스 배경, 얇은 세로 구분선으로 나눈 4분할 구도.
 동일 인물 머리의 4방향 턴어라운드:
 
 1) 완전 측면(프로필, 90도)
@@ -191,7 +206,7 @@ no change of facial identity between panels.
 3) 정면
 4) 완전 후면(뒷머리)
 
-그레이 니트 가디건을 입은 상반신 일부가 함께 보이도록 구성. 무표정.
+크림 아이보리 니트 가디건을 입은 상반신 일부가 함께 보이도록 구성. 무표정.
 {얼굴 특징 고정 문구}
 {헤어 고정 문구}
 
@@ -208,7 +223,7 @@ no change of facial identity between panels.
 ```
 Head turnaround sheet of the EXACT SAME PERSON as in the attached reference image —
 same face, same hair, same skin tone, no change of identity.
-Neutral medium-gray seamless background, 4-panel composition divided by
+Warm beige subtly textured seamless background, 4-panel composition divided by
 thin vertical dividers, showing a 4-way turnaround of the same person's head:
 
 1) full profile, 90 degree side view
@@ -216,7 +231,7 @@ thin vertical dividers, showing a 4-way turnaround of the same person's head:
 3) straight front view
 4) full back view showing the back of the head
 
-Include part of the upper torso wearing the gray ribbed knit cardigan.
+Include part of the upper torso wearing the cream ivory ribbed knit cardigan.
 Neutral expression throughout.
 {fixed facial-identity phrase}
 {fixed hair phrase}
@@ -240,7 +255,7 @@ no change of facial identity between panels.
 - [ ] **앞머리 길이**가 세 장에서 같은가 (여성 캐릭터에서 제일 자주 틀어지는 지점)
 - [ ] 볼의 점이 세 장 모두 같은 쪽에 있는가
 - [ ] 진주 귀걸이가 세 장에 다 있는가
-- [ ] 배경이 세 장 모두 중성 그레이인가
+- [ ] 배경이 세 장 모두 웜 베이지인가 (신랑과 같은 톤인가)
 
 ## 7. 생성 팁
 
