@@ -5,153 +5,151 @@
 
 ---
 
-## 0. 왜 한 곡인가
+## 0. 구조 — 한 멜로디, 두 편곡 ★확정
 
-**① 5분은 곡 하나가 커버하는 길이다.**
-컷마다 곡을 바꾸면 5분 동안 음악이 6~7번 갈린다. 하객은 그걸 "편집이 산만하다"로 읽는다.
+**한 곡으로 통일하려던 초안은 폐기됐다.** 이유가 명확하다.
 
-**② 이 영상의 감정은 이미 사운드로 설계돼 있다.**
-정적, 앰비언스 소거, 심장박동 — 전부 효과음으로 만들어놨다.
-음악은 그 위에 **깔리는 바닥**이지, 감정을 만드는 주체가 아니다.
+104 BPM 통통 튀는 곡은 **볼륨을 내려도 템포와 질감이 남는다.**
+3화 손 잡는 장면에 그 곡이 얇아진 채로 깔려 있어도, 통통 튀던 잔상이 지워지지 않는다.
 
-**③ 3화의 전환은 음악이 아니라 컬러와 리듬으로 한다.**
-쿨톤 → 웜톤, 티키타카 → 침묵. 여기서 음악까지 바뀌면 과잉이다.
+그렇다고 다른 두 곡을 쓰면 다른 영화처럼 들린다.
 
-**④ 한 곡이면 편집이 훨씬 쉽다.**
-컷 길이를 조정할 때 곡을 다시 붙일 필요가 없다.
+**해법: 같은 멜로디를 두 가지로 편곡한다.**
 
----
+| | 1화가 원하는 것 | 3화가 원하는 것 |
+|---|---|---|
+| 템포 | 빠르게 | 느리게 |
+| 타악 | 있어야 함 | 없어야 함 |
+| 편성 | 두껍게 | 얇게 |
+| 멜로디 | **같음** | **같음** |
 
-## 1. 구조 — 한 곡, 네 구간
+드라마 OST가 실제로 쓰는 방식이다. 같은 테마가 감정에 따라 옷을 갈아입는다.
 
-곡 하나를 4분 30초로 뽑아서 **구간별 볼륨만 조절**한다.
-
-| 구간 | 시간 | 음악 상태 | 이유 |
-|---|---|---|---|
-| 콜드 오픈 | 0:00–0:35 | **없음 → 타이틀에서 인** | 앰비언스 컷아웃이 살아야 한다 |
-| 1화 | 0:35–1:45 | 작게 (-18dB) | 대사와 정적이 주인공 |
-| 1화 침묵 컷 | — | **완전히 뺀다** | 정적이 연출이다 |
-| 2화 | 1:45–3:00 | 보통 (-12dB) | 감정이 올라가는 구간 |
-| **3화 리듬 붕괴 전** | 3:00–3:40 | 보통 | 티키타카를 받쳐준다 |
-| **3화 손 잡는 순간** | — | **완전히 뺀다** | 옷깃과 숨소리만 |
-| 3화 손 이후 | 3:45–4:10 | 크게 (-6dB) | 유일하게 음악이 앞에 나오는 구간 |
-| 최종화 | 4:10–4:50 | 크게 | 몽타주 |
-| 쿠키 | 4:50–5:05 | 작게 | 웃기게 마무리 |
-
-⚠️ **음악을 빼는 두 지점이 이 영상의 핵심이다.**
-1화 침묵 컷, 3화 손 잡는 순간. 여기서 음악이 깔려 있으면 두 장면 다 죽는다.
-
-⚠️ 콜드 오픈은 **타이틀이 뜰 때 음악이 처음 들어온다.**
-그 전 35초는 카페 소음과 대사만. 0.5초 무음 뒤 타이틀과 함께 음악 시작.
+⚠️ **하객이 3화에서 그 멜로디를 알아보는 것이 이 설계의 전부다.**
+"아까 그 웃긴 노래인데 지금은 왜 이러지" — 그 순간이 감정이다.
+두 개의 다른 곡으로는 절대 못 만드는 효과다.
 
 ---
 
-## 2. SUNO 프롬프트 — 메인 (코미디 강조 확정본)
+## 1. 프롬프트 A — 메인 (콜드오픈 ~ 2화, 최종화, 쿠키)
 
 **Style of Music**
 ```
-Playful acoustic comedy-romance instrumental, bouncy pizzicato strings
-lead, warm nylon-string guitar, light staccato piano, soft brushed
-snare with a gentle swing, plucked upright bass, a single clarinet
-answering the melody. Charming and mischievous, with small comic
-pauses between phrases. Unhurried mid tempo around 92 BPM. The
-arrangement thins out to solo nylon guitar and sustained strings in the
-final third, turning tender without changing key. Warm Korean romantic
-comedy soundtrack feel. Leaves plenty of space between phrases.
-No vocals.
+Bouncy acoustic romantic-comedy instrumental, walking upright bass
+driving the groove, staccato pizzicato strings, muted rhythmic nylon
+guitar chops on the offbeat, bright marimba doubling the melody,
+woodblock and tambourine, light brushed snare with a springy shuffle,
+a cheeky clarinet answering every phrase. Playful stop-time hits and
+small comic pauses. Lively mid-up tempo around 104 BPM, skipping and
+buoyant. A clear, simple, singable melody that repeats. Warm Korean
+romantic comedy soundtrack. No vocals.
 ```
 
 **Exclude Styles**
 ```
 vocals, lyrics, singing, whistling, ukulele, kazoo, slide whistle,
 cartoon sound effects, slapstick percussion, circus music, polka,
-handclaps, epic orchestral, cinematic trailer, EDM, synthwave,
+big band swing, epic orchestral, cinematic trailer, EDM, synthwave,
 aggressive drums, brass fanfare, sad piano ballad cliche
 ```
 
-**Title:** `Three Times`
-**Instrumental:** ON ✅ (반드시 켠다)
-**Length:** 4분 30초 이상
+**Instrumental:** ON ✅ · **Title:** `Three Times`
+
+⚠️ `A clear, simple, singable melody that repeats` 가 핵심이다.
+**멜로디가 단순해야 3화에서 알아본다.** 복잡하면 리프라이즈가 안 먹힌다.
+
+### 통통 튀는 느낌은 어디서 오는가
+
+| 요소 | 역할 |
+|---|---|
+| **워킹 업라이트 베이스** | 베이스가 걸어다니면 곡이 앞으로 굴러간다. 가장 큰 요인 |
+| **엇박 기타 커팅** | 통통 튀는 느낌의 절반이 여기서 나온다 |
+| 우드블록·탬버린 | 경쾌한 질감 |
+| 마림바 | 멜로디를 두 배로 밝게 |
+| stop-time hits | 다 같이 멈췄다 들어오는 장치. 1화 재난 컷과 맞는다 |
+| 104 BPM | 티키타카 속도 |
 
 ---
 
-## 2-1. 왜 이 편성인가 — 코미디와 3화를 동시에 잡는 법
+## 2. 프롬프트 B — 리프라이즈 (3화)
 
-**문제:** 코미디를 강조하면 3화 손 잡는 장면이 가벼워진다.
-**해법:** 편성이 두꺼울 때 웃기고, **얇아지면 애틋해지는 악기**를 고른다.
+**A를 먼저 확정한 뒤, SUNO의 Cover 기능으로 만든다.** 그래야 멜로디가 같다.
 
-| 악기 | 두꺼울 때 | 혼자 남을 때 | 판정 |
-|---|---|---|---|
-| **피치카토 스트링** | 통통 튀는 코믹 | 서정적 | ✅ |
-| **나일론 기타** | 경쾌 | 따뜻하고 애틋 | ✅ |
-| **클라리넷** | 익살스러움 | 쓸쓸함 | ✅ |
-| 우쿨렐레 | 귀여움 | **계속 귀여움** | ❌ |
-| 휘파람 | 유쾌 | **계속 유쾌** | ❌ |
-| 핸드클랩 | 신남 | **감정 씬에서 재앙** | ❌ |
+```
+Same melody, completely different arrangement. Tender acoustic ballad
+instrumental, solo nylon-string guitar carrying the theme, warm
+sustained strings entering underneath, a single soft piano note at
+phrase ends. No percussion at all, no bass groove. Slow and patient
+around 68 BPM. Intimate, restrained, quietly emotional. Long silences
+between phrases. Same key as the original. No vocals.
+```
 
-⚠️ **우쿨렐레·휘파람·핸드클랩은 Exclude에 넣었다.**
-가장 "코미디처럼 들리는" 소리지만, 3화에서 볼륨을 줄여도 음색이 가벼워서 감정이 안 산다.
-
-**추가한 코미디 장치**
-- `bouncy pizzicato strings lead` — 1화 재난 3종 세트의 리듬을 받쳐준다
-- `soft brushed snare with a gentle swing` — 스윙감이 티키타카와 맞는다
-- `a single clarinet answering the melody` — 주고받는 구조가 대사의 핑퐁과 겹친다
-- `small comic pauses between phrases` — SUNO가 음을 촘촘히 채우지 않게 한다
-- `92 BPM` — 84에서 올렸다. 티키타카 속도에 붙는다
-
-**3화를 지키는 장치**
-- `thins out to solo nylon guitar and sustained strings in the final third`
-- `turning tender without changing key` — 같은 곡인 게 들려야 한다. 조를 바꾸면 다른 곡이 된다
+핵심은 `No percussion at all, no bass groove` 다.
+**통통 튀던 요소를 전부 제거하는 것**이 이 편곡의 전부다.
 
 ---
 
-## 3. 구간별 운용 — 코미디 버전
+## 3. 구간별 운용
 
-| 구간 | 음악 | 비고 |
+| 구간 | 곡 | 볼륨 |
 |---|---|---|
-| 콜드 오픈 | 없음 → 타이틀에서 인 | 앰비언스 컷아웃이 살아야 한다 |
-| **1화 재난 3종** | **-14dB, 평소보다 크게** | 코미디는 음악이 받쳐줘야 산다 |
-| 1화 침묵 컷 | **완전히 뺀다** | 정적이 연출이다 |
-| 2화 | -12dB | |
-| 3화 티키타카 | -16dB | 대사가 주인공 |
-| **3화 손** | **완전히 뺀다** | 옷깃과 숨소리만 |
-| 3화 손 이후 | -6dB | 곡이 알아서 얇아진 구간 |
-| 최종화 | -6dB | 몽타주 |
-| 쿠키 | -12dB | 다시 통통 튀게 |
+| 콜드 오픈 | 없음 → 타이틀에서 **A** 인 | — |
+| **1화 재난 3종** | **A** | **-14dB (크게)** |
+| **1화 침묵 컷** | **없음** | **0** |
+| 1화 컷 7 (ERP) | A | -20dB (대사가 촘촘하다) |
+| 1화 컷 10 (후크) | A | -20dB, 알림음 뒤 0으로 |
+| 2화 | A | -12dB |
+| 2화 비 씬 | A | -14dB |
+| 3화 티키타카 | **B** | -18dB |
+| **3화 손** | **없음** | **0** |
+| 3화 손 이후 | B | -6dB |
+| **최종화 몽타주** | **A 복귀** | -6dB |
+| 쿠키 | A | -12dB |
+
+⚠️ **최종화에서 A로 돌아오는 것이 중요하다.**
+통통 튀는 곡이 다시 나오면서 "웃으며 끝내기"가 완성된다. B로 끝내면 너무 감상적이다.
 
 ⚠️ **1화 재난 컷에서만 음악을 평소보다 크게 올린다.**
 코미디는 음악이 리듬을 받쳐줄 때 훨씬 잘 먹힌다.
-반대로 대사가 촘촘한 컷 7(ERP)에서는 다시 내린다.
 
-## 4. 대안 세 가지 — 취향에 따라
+---
 
-메인이 안 맞으면 아래로 바꾼다. **구조는 그대로, 색깔만 다르다.**
+## 3-1. SUNO 작업 순서
 
-### A. 코미디를 더 밀고 싶을 때
+1. **A를 5개 이상 뽑는다.** 멜로디가 단순하고 기억에 남는 것을 고른다
+2. 확정된 A에서 **Cover** 실행 → B 프롬프트 입력
+3. B의 멜로디가 A와 같은지 확인. 다르면 다시 Cover
+4. Cover가 계속 안 맞으면 → **B를 별도 생성하되 나일론 기타를 반드시 넣는다.**
+   악기가 겹치면 형제곡으로 들린다
+
+**Cover가 이 방식의 관건이다.** 안 되면 4번 폴백으로 가도 충분히 통한다.
+
+### A를 고를 때 기준
+
+- 도입 15초가 밋밋할 것 (콜드 오픈 뒤에 붙일 자리)
+- 멜로디를 듣고 따라 흥얼거릴 수 있을 것
+- 통통 튀는 곡일수록 SUNO 편차가 크다. **촌스럽게 나온 건 버린다**
+
+---
+
+## 3-2. 더 세게 밀고 싶으면 (A 대체안)
 
 ```
-Playful acoustic comedy instrumental, bouncy pizzicato strings, muted
-staccato guitar, woodblock and light brushed drums, walking upright
-bass, clarinet and bassoon trading a mischievous melody. Bright and
-comic, mid tempo around 100 BPM. Thins to solo guitar in the final
-third. No vocals.
+Peppy acoustic sitcom instrumental, fast walking upright bass, snappy
+pizzicato strings, marimba and glockenspiel trading a mischievous
+melody, woodblock, tambourine and finger snaps, tight brushed shuffle,
+clarinet and bassoon bickering in call and response. Constant forward
+motion, comic stop-time breaks. Bright and busy, around 116 BPM.
+A clear, simple, singable melody that repeats. No vocals.
 ```
 
-바순이 들어가면 더 익살스러워진다. **3화가 가벼워질 위험이 커지므로**,
+116 BPM에 바순까지 들어가면 거의 시트콤 톤이다.
+**하객 반응은 이쪽이 더 좋을 수 있지만**, 3화와의 낙차가 너무 커진다.
 이걸 쓸 거면 3화에서 음악을 아예 빼는 구간을 더 넓게 잡는다.
 
-### A-2. 코미디를 뺀 원래 메인 (참고용)
+## 4. 완전히 다른 방향 (A가 안 맞을 때)
 
-```
-Warm indie folk-pop instrumental, gentle fingerpicked acoustic guitar
-lead, soft felt piano, light brushed drums entering halfway, subtle
-upright bass, airy string pad in the final third. Unhurried mid tempo
-around 84 BPM. Bittersweet but hopeful, understated, never triumphant.
-Modern Korean drama soundtrack feel. Leaves plenty of space between
-phrases. No vocals.
-```
-
-감정 쪽에 무게가 실린다. 코미디 강조 결정 전의 버전이다.
+메인이 안 맞으면 아래로 바꾼다. **구조는 그대로, 색깔만 다르다.**
 
 ### B. 더 담백하고 조용한 톤 (감정 강조)
 
