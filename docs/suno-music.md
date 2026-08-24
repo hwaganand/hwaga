@@ -46,9 +46,102 @@
 
 ---
 
-## 2. SUNO 프롬프트 — 메인 (이것만 쓰면 된다)
+## 2. SUNO 프롬프트 — 메인 (코미디 강조 확정본)
 
 **Style of Music**
+```
+Playful acoustic comedy-romance instrumental, bouncy pizzicato strings
+lead, warm nylon-string guitar, light staccato piano, soft brushed
+snare with a gentle swing, plucked upright bass, a single clarinet
+answering the melody. Charming and mischievous, with small comic
+pauses between phrases. Unhurried mid tempo around 92 BPM. The
+arrangement thins out to solo nylon guitar and sustained strings in the
+final third, turning tender without changing key. Warm Korean romantic
+comedy soundtrack feel. Leaves plenty of space between phrases.
+No vocals.
+```
+
+**Exclude Styles**
+```
+vocals, lyrics, singing, whistling, ukulele, kazoo, slide whistle,
+cartoon sound effects, slapstick percussion, circus music, polka,
+handclaps, epic orchestral, cinematic trailer, EDM, synthwave,
+aggressive drums, brass fanfare, sad piano ballad cliche
+```
+
+**Title:** `Three Times`
+**Instrumental:** ON ✅ (반드시 켠다)
+**Length:** 4분 30초 이상
+
+---
+
+## 2-1. 왜 이 편성인가 — 코미디와 3화를 동시에 잡는 법
+
+**문제:** 코미디를 강조하면 3화 손 잡는 장면이 가벼워진다.
+**해법:** 편성이 두꺼울 때 웃기고, **얇아지면 애틋해지는 악기**를 고른다.
+
+| 악기 | 두꺼울 때 | 혼자 남을 때 | 판정 |
+|---|---|---|---|
+| **피치카토 스트링** | 통통 튀는 코믹 | 서정적 | ✅ |
+| **나일론 기타** | 경쾌 | 따뜻하고 애틋 | ✅ |
+| **클라리넷** | 익살스러움 | 쓸쓸함 | ✅ |
+| 우쿨렐레 | 귀여움 | **계속 귀여움** | ❌ |
+| 휘파람 | 유쾌 | **계속 유쾌** | ❌ |
+| 핸드클랩 | 신남 | **감정 씬에서 재앙** | ❌ |
+
+⚠️ **우쿨렐레·휘파람·핸드클랩은 Exclude에 넣었다.**
+가장 "코미디처럼 들리는" 소리지만, 3화에서 볼륨을 줄여도 음색이 가벼워서 감정이 안 산다.
+
+**추가한 코미디 장치**
+- `bouncy pizzicato strings lead` — 1화 재난 3종 세트의 리듬을 받쳐준다
+- `soft brushed snare with a gentle swing` — 스윙감이 티키타카와 맞는다
+- `a single clarinet answering the melody` — 주고받는 구조가 대사의 핑퐁과 겹친다
+- `small comic pauses between phrases` — SUNO가 음을 촘촘히 채우지 않게 한다
+- `92 BPM` — 84에서 올렸다. 티키타카 속도에 붙는다
+
+**3화를 지키는 장치**
+- `thins out to solo nylon guitar and sustained strings in the final third`
+- `turning tender without changing key` — 같은 곡인 게 들려야 한다. 조를 바꾸면 다른 곡이 된다
+
+---
+
+## 3. 구간별 운용 — 코미디 버전
+
+| 구간 | 음악 | 비고 |
+|---|---|---|
+| 콜드 오픈 | 없음 → 타이틀에서 인 | 앰비언스 컷아웃이 살아야 한다 |
+| **1화 재난 3종** | **-14dB, 평소보다 크게** | 코미디는 음악이 받쳐줘야 산다 |
+| 1화 침묵 컷 | **완전히 뺀다** | 정적이 연출이다 |
+| 2화 | -12dB | |
+| 3화 티키타카 | -16dB | 대사가 주인공 |
+| **3화 손** | **완전히 뺀다** | 옷깃과 숨소리만 |
+| 3화 손 이후 | -6dB | 곡이 알아서 얇아진 구간 |
+| 최종화 | -6dB | 몽타주 |
+| 쿠키 | -12dB | 다시 통통 튀게 |
+
+⚠️ **1화 재난 컷에서만 음악을 평소보다 크게 올린다.**
+코미디는 음악이 리듬을 받쳐줄 때 훨씬 잘 먹힌다.
+반대로 대사가 촘촘한 컷 7(ERP)에서는 다시 내린다.
+
+## 4. 대안 세 가지 — 취향에 따라
+
+메인이 안 맞으면 아래로 바꾼다. **구조는 그대로, 색깔만 다르다.**
+
+### A. 코미디를 더 밀고 싶을 때
+
+```
+Playful acoustic comedy instrumental, bouncy pizzicato strings, muted
+staccato guitar, woodblock and light brushed drums, walking upright
+bass, clarinet and bassoon trading a mischievous melody. Bright and
+comic, mid tempo around 100 BPM. Thins to solo guitar in the final
+third. No vocals.
+```
+
+바순이 들어가면 더 익살스러워진다. **3화가 가벼워질 위험이 커지므로**,
+이걸 쓸 거면 3화에서 음악을 아예 빼는 구간을 더 넓게 잡는다.
+
+### A-2. 코미디를 뺀 원래 메인 (참고용)
+
 ```
 Warm indie folk-pop instrumental, gentle fingerpicked acoustic guitar
 lead, soft felt piano, light brushed drums entering halfway, subtle
@@ -58,49 +151,7 @@ Modern Korean drama soundtrack feel. Leaves plenty of space between
 phrases. No vocals.
 ```
 
-**Exclude Styles**
-```
-vocals, lyrics, singing, choir, epic orchestral, cinematic trailer,
-heavy percussion, EDM, synthwave, dubstep, aggressive drums, brass
-fanfare, gospel, sad piano ballad cliche
-```
-
-**Title:** `Three Times`
-**Instrumental:** ON ✅ (반드시 켠다)
-**Length:** 4분 30초 이상
-
-⚠️ **보컬 절대 금지.** 가사가 있으면 대사와 싸운다. 이 영상은 대사가 전부다.
-
----
-
-## 3. 프롬프트 설계 근거
-
-| 요소 | 이유 |
-|---|---|
-| **핑거피킹 어쿠스틱 기타** | 소리 사이에 빈 공간이 많다. 대사가 들어갈 자리를 남겨준다 |
-| **84 BPM** | 걷는 속도. 빠르면 티키타카와 충돌하고, 느리면 1화가 무거워진다 |
-| **드럼이 중간부터** | 1~2화는 가볍게, 3화 이후 두께가 생긴다. 편집으로 안 만들고 곡이 알아서 한다 |
-| **스트링이 마지막 1/3** | 3화 손 이후~최종화 구간에 자연스럽게 부풀어 오른다 |
-| **"never triumphant"** | 이 커플은 첫눈에 반한 게 아니다. 승리의 음악이 아니라 안도의 음악이어야 한다 |
-| **"leaves plenty of space"** | SUNO에 이 문구를 넣으면 음이 촘촘하지 않게 나온다. 중요하다 |
-
----
-
-## 4. 대안 세 가지 — 취향에 따라
-
-메인이 안 맞으면 아래로 바꾼다. **구조는 그대로, 색깔만 다르다.**
-
-### A. 더 밝고 가벼운 톤 (코미디 강조)
-
-```
-Light acoustic indie pop instrumental, ukulele and fingerpicked guitar,
-playful pizzicato strings, soft handclaps, warm upright bass. Bright,
-gently comedic, mid tempo around 96 BPM. Charming and unserious in the
-first half, warmer and fuller in the last third. Leaves space between
-phrases. No vocals.
-```
-
-1화 재난 컷들이 더 산다. 다만 **3화가 가벼워질 위험**이 있다.
+감정 쪽에 무게가 실린다. 코미디 강조 결정 전의 버전이다.
 
 ### B. 더 담백하고 조용한 톤 (감정 강조)
 
