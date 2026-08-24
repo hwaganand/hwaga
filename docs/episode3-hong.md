@@ -20,11 +20,29 @@
 | | 1~2화 | 3화 |
 |---|---|---|
 | 서연 V.O. 혼잣말 | 계속 나옴 | **한 번도 안 나옴** |
+| **민준 V.O.** | **한 번도 없음** | **컷 6에서 딱 한 번** ★ |
 | 리듬 붕괴 후 컷 | — | **자르지 않고 한 테이크로 버팀** |
 | 말장난 | 핵심 | 붕괴 전까지만 |
 
 ⚠️ **서연의 V.O.가 3화에 한 번도 안 나오는 것이 핵심이다.**
 말할 게 없어서가 아니라 정리가 안 돼서다. 관객은 그 부재를 알아챈다.
+
+### ★ 화자의 바통이 넘어간다
+
+1~2화에서 서연은 속마음을 계속 흘렸고, 민준은 V.O.가 한 번도 없었다.
+**3화에서 정확히 뒤집힌다.**
+
+| | 1~2화 | 3화 |
+|---|---|---|
+| 서연 | 속으로 말한다 | **침묵한다** |
+| 민준 | 소리 내서 흘린다 | **속으로 말한다** (컷 6, 한 번) |
+
+민준은 생각이 입으로 새어나오는 사람이었다.
+그런데 정작 가장 중요한 순간에 **처음으로 소리를 못 낸다.**
+캐릭터가 뒤집히는 게 아니라 극한까지 간 것이다.
+
+관객은 3화 내내 "왜 서연이 아무 말도 안 하지" 하다가 갑자기 민준의 목소리를 듣는다.
+**설명 없이 시점이 넘어간 것을 느낀다.**
 
 ### 딜리버리 — 프로필은 그대로, 이 한 줄만 추가
 
@@ -165,21 +183,43 @@ SPEAKERS: One speaker only.
 
 ---
 
-## 컷 6 — 손 / 웜톤 전환 ★
+## 컷 6 — 손 / 웜톤 전환 ★★ 이 영상의 정점
 
 ```
 화면: 서연의 손이 먼저 움직인다. 민준의 손을 잡는다.
-카메라: 손 클로즈업. 정지.
+      민준이 굳는다. 아무 말도 못 한다.
+카메라: 손 클로즈업 → 민준의 얼굴로 아주 짧게. 정지.
 조명: 이 컷에서 쿨톤 → 웜톤으로 넘어간다. 화면 전체의 색온도가 올라간다.
 
-보이스: 없음
-SPEAKERS: Zero speakers.
+보이스: @voice_MINJUN_v1
+DELIVERY (this line only): Spoken inwardly, very small and frozen. He is
+       overwhelmed rather than delighted — the tone of someone who has no
+       idea what to do next. Not romantic, not triumphant, almost panicked.
+ADDRESSING: Interior monologue. He does not speak aloud, his lips do not
+       move, and he never looks at the camera.
+SPEAKERS: One speaker only, heard in voice-over. No spoken dialogue in the
+       scene at all. Seo-yeon says nothing and has no voice-over.
+PROCESSING: Close-mic'd, completely dry.
+DIALOGUE VOLUME: Voice-over very quiet but clearly intelligible, sitting
+       just above the near-silence.
+
+대사 (V.O.):
+민준: …어떡하지.
 
 사운드: 주변 소음이 전부 페이드아웃. 옷깃 스치는 소리와 두 사람의 숨소리만.
 ```
 
+⚠️ **이 한 줄이 영상 전체에서 민준의 유일한 독백이다.**
+1~2화 내내 아무 말이나 소리 내서 흘리던 사람이,
+정작 가장 중요한 순간에 입이 안 떨어져서 속으로만 말한다.
+
+⚠️ 서연은 이 컷에서도 아무 말이 없다. **두 사람의 화법이 여기서 교대된다.**
+
 ⚠️ **1~2화를 채도 낮은 쿨톤으로 찍어온 이유가 이 한 컷이다.**
 색 전환 하나가 대사 열 줄보다 세다.
+
+⚠️ 톤 주의: "어떡하지"를 **로맨틱하게 읽으면 안 된다.**
+좋아서 하는 말이 아니라 **당황해서 하는 말**이다. 그래서 웃기고, 그래서 벅차다.
 
 ---
 
@@ -249,5 +289,7 @@ PROCESSING: 근접 마이크, 완전 건조.
 - [ ] 컷 4의 침묵이 잘리지 않았는가
 - [ ] 컷 5를 한 테이크로 갔는가 (중간에 컷 없음)
 - [ ] 컷 6에서 웜톤 전환이 보이는가
+- [ ] 컷 6의 민준 V.O.가 **당황한 톤인가** (로맨틱하지 않은가)
+- [ ] 민준의 V.O.가 **컷 6 외에 어디에도 없는가**
 - [ ] 민준의 고백이 **유창하지 않은가**
 - [ ] 전 컷에 `no background music, no score, no soundtrack`
