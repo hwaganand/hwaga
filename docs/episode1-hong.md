@@ -1,0 +1,524 @@
+# 제1화 — 홍자매 톤 버전
+
+> 《세 번째 만남》 제1화 · 최악의 소개팅
+> 티키타카 로코 문법으로 재작성. **하이브리드 B안의 1화.**
+
+---
+
+## 0. 하이브리드 구성
+
+| 화 | 작가 톤 | 역할 |
+|---|---|---|
+| **1화** | **홍자매** | 티키타카 개그. 소개팅 재난 |
+| 2화 | 박지은 | 발견의 설렘, 허당미 |
+| **3화** | **임상춘** | 말 못 하는 남자의 진심. 정점 |
+| 최종화 | 홍자매 복귀 | 웃으며 끝내기 |
+
+**3화에 임상춘을 놓는 것이 이 구조의 전부다.**
+1~2화 내내 웃기다가 3화에서 갑자기 촌스럽고 담백한 대사가 나오면 하객이 무너진다.
+
+민준 캐릭터는 **동백꽃 필 무렵의 황용식**이다 — 말주변 없고, 표현 서툴고, 행동으로 하는 사람.
+보이스 프로필의 `never a smooth, confident or charismatic delivery`가 그대로 임상춘 남주다.
+캐릭터를 바꿀 필요가 없다.
+
+---
+
+## 1. 홍자매 문법 vs 임성한 문법
+
+정반대다. 같은 컷을 정확히 반대로 찍는다.
+
+| | 임성한 | 홍자매 |
+|---|---|---|
+| 리듬 | 느리고 무겁게 | **빠르고 가볍게** |
+| 정적 | 늘려서 견딜 수 없게 | **대사로 감싼다** |
+| 대사 | 문어체, 선언 | **구어체, 핑퐁** |
+| 클로즈업 | 감정 과장용 | **개그 리액션용** |
+| 컷 길이 | 길게 버팀 | **짧게 끊어 침** |
+| 속마음 | 정면 응시 독백 | **V.O. 혼잣말** |
+
+### 홍자매 시그니처 6가지
+
+| # | 장치 | 이 화에서 |
+|---|---|---|
+| 1 | **티키타카** | 대사가 핑퐁처럼 빠르게 오감 |
+| 2 | **말꼬리 잡기** | 상대 말의 단어를 되받아침 |
+| 3 | **V.O. 혼잣말** | 속마음이 실시간으로 흐름 |
+| 4 | **러닝 개그** | 한 요소가 계속 돌아옴 → **넥타이** |
+| 5 | **정적을 대사로 감싸기** | "저기…" "네." "…아니에요." |
+| 6 | **회수** | 마지막에 러닝 개그를 되갚음 |
+
+⚠️ **이 화의 러닝 개그는 "넥타이"다.**
+컷 2에서 심고 → 컷 3에서 키우고 → 컷 4에서 써먹고 → **컷 10에서 회수한다.**
+회수가 이 버전의 가장 큰 무기다. 임성한 버전에는 없는 구조다.
+
+---
+
+## 2. 보이스 — 딜리버리만 교체
+
+**고정층 프로필은 건드리지 않는다.** `docs/voice-profiles.md` 원문 그대로.
+
+홍자매 딜리버리 공통 문구:
+```
+DELIVERY (romcom register): Lines are traded quickly and lightly,
+overlapping at the edges as in natural conversation. Delivery is
+colloquial and unforced, never declarative or literary. Reactions land
+fast. When a pause happens it is short and awkward rather than weighty,
+and it is broken by speech rather than held.
+```
+
+⚠️ 이건 **변동층**이다. 3화에서는 이 문단을 빼고 임상춘 딜리버리로 교체한다 (바이블 F3).
+
+---
+
+# 3. 컷 리스트 — 홍자매 버전
+
+## 컷 1 — 신부의 집 / 오전
+
+> `자막 카드: 제1화 · 최악의 소개팅`
+
+```
+SUBJECT: @char_SEOYEON_v1 holding a top against herself in front of a
+mirror, phone wedged against her shoulder. She swaps it for another,
+then goes back to the first one. Two more lie on the bed.
+CAMERA: medium shot catching her in the mirror, quick reframes with
+each swap. Handheld, light.
+LIGHTING: cool morning daylight, slightly desaturated.
+
+VOICES:
+[@voice_JUNGIMO_v1 원문]
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Jung-imo is cheerfully unbothered and pushing hard. Seo-yeon
+answers fast and dry, barely looking up, landing each reply on the beat.
+ADDRESSING: A phone conversation. Neither speaks to the room or camera.
+SPEAKERS: Two speakers only. Exact lines, no ad-libs, no extra voices.
+PROCESSING: Jung-imo is band-limited phone-line audio.
+DIALOGUE VOLUME: Both voices at clear, natural speech volume, well above
+the quiet room tone.
+
+DIALOGUE (Korean):
+JUNG-IMO (phone): "야, 이번엔 진짜다."
+SEO-YEON: "언니 '진짜'는 지난번이 세 번째였어."
+JUNG-IMO (phone): "그라믄 이번이 네 번째제."
+SEO-YEON: "…그게 자랑이야?"
+
+SOUND: hangers sliding, fabric rustle, a zip. Quiet room tone. No music.
+```
+
+😂 **말꼬리 잡기(장치 2)** — "진짜"를 되받아친다. 첫 컷부터 리듬을 잡는다.
+
+---
+
+## 컷 2 — 신랑의 집 / 오전 ★러닝 개그 심는 컷
+
+```
+SUBJECT: @char_MINJUN_v1 in front of a mirror rehearsing a greeting to
+his own reflection, adjusting his expression each time. He glances down
+at his thin knit tie, tugs it, and grimaces slightly.
+WARDROBE: crisply ironed light-blue oxford shirt buttoned to the top,
+navy wool blazer, thin charcoal knit tie, beige chinos.
+CAMERA: medium close-up on the reflection. Quick cuts between each
+attempt.
+LIGHTING: cool morning daylight, slightly desaturated.
+
+VOICES:
+[@voice_MINJUN_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: He is rehearsing, correcting himself out loud between
+attempts, entirely earnest and slightly embarrassed. Each attempt has a
+different, badly chosen tone.
+ADDRESSING: He speaks to his own reflection. Not to the camera.
+SPEAKERS: One speaker only. Exact lines, no ad-libs, no extra voices.
+DIALOGUE VOLUME: Dialogue at clear, natural speech volume.
+
+DIALOGUE (Korean):
+MIN-JUN: "안녕하세요."
+MIN-JUN: "…아니 너무 딱딱한가."
+MIN-JUN: "안녕하세요~"
+MIN-JUN: "…이건 좀 느끼한데."
+MIN-JUN (looking down at the tie): "…넥타이는 좀 아닌가."
+
+SOUND: fabric friction, a small sigh, room tone. No music.
+```
+
+⚠️ **여기서 넥타이를 심는다.** 앞으로 세 번 더 돌아온다.
+
+---
+
+## 컷 3 — 휴대폰 검색 인서트 ★러닝 개그 키우는 컷
+
+```
+SUBJECT: Extreme close-up of a phone screen showing Korean search
+results. The thumb scrolls down through three queries.
+CAMERA: extreme close-up, screen fills frame.
+LIGHTING: screen glow, cool ambient.
+
+ON-SCREEN TEXT (Korean, inside the phone):
+"소개팅 첫 대화 주제 추천"
+"소개팅 넥타이 오바인가요"
+"넥타이 안 매면 성의 없어 보이나요"
+
+VOICES: none.
+SPEAKERS: Zero speakers. No dialogue, no voice-over, no extra voices.
+SOUND: soft thumb-taps on glass, room tone. No music.
+```
+
+😂 **웃음 포인트 ①** — 검색어 세 개로 이 사람의 30분을 설명한다.
+두 번째와 세 번째가 서로 모순된다는 게 개그다.
+
+---
+
+## 컷 4 — 카페 문 열림 ★러닝 개그 써먹는 컷
+
+```
+SUBJECT: @char_SEOYEON_v1 pushing open a cafe door and spotting him.
+Slow motion on her entrance. Then a hard cut to @char_MINJUN_v1 at a
+table, straightening his tie as he stands.
+CAMERA: slow-motion medium-wide on her entrance with backlight, then a
+fast cut to a medium of him. The slow motion ends abruptly on the cut.
+LIGHTING: backlight through the glass door, cool desaturated grade.
+
+VOICES:
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Two short interior thoughts, dropped casually, the second one
+deflating the first. Light and quick, not dramatic.
+ADDRESSING: Interior monologue. She does not speak aloud and does not
+look at the camera.
+SPEAKERS: One speaker only, in voice-over. No spoken dialogue in the
+scene itself, no extra voices. Background patrons are unintelligible
+murmur only.
+PROCESSING: Voice-over is close-mic'd and dry, clearly separate from
+the room.
+DIALOGUE VOLUME: Voice-over at clear, natural speech volume, well above
+the cafe ambience.
+
+DIALOGUE (Korean, voice-over):
+SEO-YEON (V.O.): "어. 잘생겼다."
+SEO-YEON (V.O.): "…넥타이만 아니면."
+
+SOUND: door chime, cafe ambience. On the cut to him, the ambience snaps
+back to normal from the slow-motion muffle. No music, no score.
+```
+
+😂 **웃음 포인트 ②** — 로맨스 낚시를 **2초 만에** 스스로 무너뜨린다.
+임성한 버전은 여기서 6배 슬로우로 계속 밀지만, 홍자매는 바로 깬다.
+
+---
+
+## 컷 5 — 침묵 ★정적을 대사로 감싸기
+
+```
+SUBJECT: @char_MINJUN_v1 and @char_SEOYEON_v1 seated across a cafe
+table. He starts to speak, stops. She waits. He gives up. She nods.
+Neither has said anything of substance.
+CAMERA: static two-shot, with two quick reaction inserts — his mouth
+opening and closing, her polite blink.
+LIGHTING: flat cafe daylight, cool desaturated grade.
+
+VOICES:
+[@voice_MINJUN_v1 원문]
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Min-jun's opener dies in his mouth. Seo-yeon's replies are
+small, patient and entirely empty. The pauses between lines are short
+and awkward, never weighty.
+ADDRESSING: Across the table. Neither speaks to the room or camera.
+SPEAKERS: Two speakers only. Exact lines, no ad-libs, no extra voices.
+DIALOGUE VOLUME: Dialogue at clear, natural speech volume, well above
+the cafe room tone.
+
+DIALOGUE (Korean):
+MIN-JUN: "저기…"
+SEO-YEON: "네."
+MIN-JUN: "…아니에요."
+(short pause)
+SEO-YEON: "…네."
+
+SOUND: cafe room tone, a distant espresso machine. No music.
+```
+
+⚠️ 임성한 버전과 **정확히 반대**다. 저쪽은 정적을 4초로 늘렸고,
+여기서는 **정적을 대사로 감싸서** 짧게 만든다. 웃음의 종류가 다르다.
+
+---
+
+## 컷 6 — 재난 #1 · 커피 ★티키타카 정점
+
+> `자막: 재난 #1`
+
+```
+SUBJECT: @char_MINJUN_v1 and @char_SEOYEON_v1 at the cafe table. An iced
+americano tips and spills. Both start apologising over each other,
+neither finishing a sentence. They end up mopping the table together;
+their hands meet on the same napkin and both freeze for a beat.
+CAMERA: quick handheld reframe on the spill, then fast cuts between
+their faces on each line, then a static insert on the two hands stopped
+on the napkin.
+LIGHTING: flat cafe daylight, cool desaturated grade.
+
+VOICES:
+[@voice_MINJUN_v1 원문]
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Both talk over each other, each trying to take the blame,
+lines colliding and cutting off. The rhythm accelerates, then stops dead
+when their hands touch.
+ADDRESSING: Across the table, to each other only.
+SPEAKERS: Two speakers only. Exact lines, no ad-libs, no extra voices.
+OVERLAP: The apology lines overlap at their edges, each starting before
+the previous one finishes, but each line stays intelligible.
+DIALOGUE VOLUME: Dialogue at clear, natural speech volume, well above
+the cafe room tone.
+
+DIALOGUE (Korean):
+MIN-JUN & SEO-YEON (together): "아—"
+MIN-JUN: "제가—"
+SEO-YEON: "아니 제가—"
+MIN-JUN: "제가 쏟았으니까—"
+SEO-YEON: "제가 팔을 쳤으니까—"
+(beat)
+MIN-JUN: "…같이 할까요."
+SEO-YEON: "…네."
+
+SOUND: ice and liquid hitting the table, napkins pulled fast, then
+silence on the hand contact — the ambience drops for one beat and
+returns. No music, no score.
+```
+
+😂 **웃음 포인트 ③** — 서로 자기 탓이라고 우기는 티키타카.
+그리고 **"같이 할까요"에서 처음으로 리듬이 맞는다.** 이 컷이 이 버전의 백미다.
+임성한 버전(3단 줌인 + 징)과 완전히 다른 장면이 된다.
+
+---
+
+## 컷 7 — 재난 #2 · ERP ★V.O. 혼잣말
+
+> `자막: 재난 #2 — 회사 얘기 20분째`
+
+```
+SUBJECT: @char_MINJUN_v1 explaining something with real enthusiasm.
+@char_SEOYEON_v1 nodding at intervals with a fixed polite smile. On his
+question, her smile freezes.
+CAMERA: over-the-shoulder on him, cut to her face on each interior
+thought, then a static close-up holding on her frozen smile.
+LIGHTING: flat cafe daylight, cool desaturated grade.
+
+VOICES:
+[@voice_MINJUN_v1 원문]
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Min-jun is genuinely enthusiastic and picks up speed as he
+goes — this is the one subject he is comfortable with. Seo-yeon's spoken
+replies are hollow and automatic; her interior lines are fast, dry and
+resigned. Her final interior line is flat, like a verdict.
+ADDRESSING: Min-jun speaks across the table. Seo-yeon's spoken lines go
+to him; her interior lines are voice-over and go to no one in the scene.
+She does not look at the camera.
+SPEAKERS: Two speakers only. Exact lines, no ad-libs, no extra voices.
+PROCESSING: Seo-yeon's voice-over is close-mic'd and dry, clearly
+separate from the room.
+DIALOGUE VOLUME: Dialogue and voice-over both at clear, natural speech
+volume, well above the cafe room tone.
+
+DIALOGUE (Korean):
+MIN-JUN: "그래서 저희 팀이 ERP를 도입했는데요—"
+SEO-YEON (V.O.): "ERP가 뭐지."
+MIN-JUN: "—그게 전사적 자원 관리라고—"
+SEO-YEON (V.O.): "아, 물어보면 20분 더 하겠지."
+SEO-YEON: "아… 네…"
+MIN-JUN: "관심 있으세요?"
+SEO-YEON: "…네?"
+MIN-JUN (brightening): "더 설명드릴까요?"
+SEO-YEON (V.O.): "망했다."
+
+SOUND: cafe room tone, a cup set down off screen. No music.
+```
+
+😂 **웃음 포인트 ④** — 속마음과 겉말이 어긋나는 홍자매 특기.
+`"관심 있으세요?"` 에서 민준이 밝아지는 게 잔인해서 웃긴다.
+
+---
+
+## 컷 8 — 재난 #3 · 헤어질 때
+
+> `자막: 재난 #3 — 헤어질 때`
+
+```
+SUBJECT: @char_MINJUN_v1 and @char_SEOYEON_v1 outside the cafe. Both
+start speaking at once, both stop, then each tries to yield to the
+other, colliding again. Finally both bow — badly out of sync, one
+starting as the other finishes.
+CAMERA: static medium two-shot. Quick reaction cuts on the yielding
+lines. Hold the wide on the mistimed bows.
+LIGHTING: overcast daylight, cool desaturated grade.
+
+VOICES:
+[@voice_MINJUN_v1 원문]
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: Both are flustered and over-polite, each deferring to the
+other and neither getting anywhere.
+OVERLAP: The first two lines are spoken simultaneously and collide,
+neither cleanly audible. Both stop at the same moment. The deferring
+lines that follow also start on top of each other.
+ADDRESSING: To each other, not to the street or camera.
+SPEAKERS: Two speakers only. Exact lines, no ad-libs, no extra voices.
+DIALOGUE VOLUME: Dialogue at clear, natural speech volume.
+
+DIALOGUE (Korean):
+MIN-JUN: "다음에 또—"
+SEO-YEON: "저 이만—"
+(both stop)
+MIN-JUN: "…먼저 하세요."
+SEO-YEON: "…아니 먼저 하세요."
+(short silence)
+(both bow, mistimed)
+
+SOUND: street ambience, a passing car. A short beat of room tone in the
+silence. No music.
+```
+
+😂 **웃음 포인트 ⑤** — 양보가 또 겹친다. 겹침을 두 번 쓰는 게 홍자매식이다.
+
+---
+
+## 컷 9 — 신부 인터뷰 / V.O.
+
+```
+SUBJECT: @char_SEOYEON_v1 seated on a plain chair against a neutral
+wall, present day, talking to an unseen interviewer. She snorts a small
+laugh before answering, then pauses before the last line.
+CAMERA: static medium close-up, eyeline slightly off-lens.
+LIGHTING: soft even interview lighting, neutral grade — visibly
+different from the cafe scenes.
+
+VOICES:
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: The first line is dry and amused, thrown away. Then a real
+pause before the last line, which lands lighter and slightly puzzled —
+it is a hinge, not a punchline.
+ADDRESSING: To the unseen interviewer, never to the camera.
+SPEAKERS: One speaker only. Exact lines, no ad-libs, no extra voices.
+PROCESSING: Close-mic'd, completely dry, no room reverb.
+DIALOGUE VOLUME: Dialogue at clear, natural speech volume.
+
+DIALOGUE (Korean):
+SEO-YEON: "심장이요? 아니 그게 뛰려면 뭐가 있어야 뛰죠."
+SEO-YEON: "근데 그날 밤에요."
+(pause)
+SEO-YEON: "…심장이 아니라 폰이 뛰더라고요."
+
+SOUND: quiet interior room tone only. No music.
+```
+
+⚠️ 마지막 줄이 **다음 컷으로 넘어가는 다리**다. 임성한 버전에는 없는 연결이다.
+말장난 하나로 챕터를 넘긴다.
+
+---
+
+## 컷 10 — 밤 11시 47분 / 후크 ★러닝 개그 회수
+
+```
+SUBJECT: @char_SEOYEON_v1 lying in a dark bedroom lit only by her phone.
+A messenger notification arrives. She reads. A third message arrives
+below the first two. Her thumb stops over the screen.
+CAMERA: close-up on the phone screen filling most of the frame. The
+third message arrives while the shot holds. Then a small push to her
+face.
+LIGHTING: near darkness, only phone-screen light, cool grade.
+
+ON-SCREEN TEXT (Korean, inside the messenger, arriving in order):
+"오늘 제가 너무 긴장해서 실수가 많았어요."
+"혹시… 딱 한 번만 더 기회 주실 수 있을까요?"
+"아 그리고 넥타이는 다음엔 안 맬게요."
+Timestamp visible: 11:47 PM
+
+VOICES:
+[@voice_SEOYEON_v1 원문]
+[홍자매 딜리버리 공통 문구]
+
+DELIVERY: A single interior line, quiet and caught off guard — half a
+laugh, half genuine surprise. Not sentimental.
+ADDRESSING: Interior monologue. She does not speak aloud.
+SPEAKERS: One speaker only, in voice-over. No spoken dialogue in the
+scene, no extra voices.
+PROCESSING: Voice-over is close-mic'd and completely dry.
+DIALOGUE VOLUME: Voice-over at clear, natural speech volume, well above
+the room tone.
+
+DIALOGUE (Korean, voice-over):
+SEO-YEON (V.O.): "…아니 그걸 왜 알아."
+
+SOUND: notification chimes — two, then a beat, then a third. Then
+silence except faint room tone. No music, no score.
+```
+
+**암전.**
+> `자막: 그래서, 다시 만났을까요?`
+
+😂 **웃음 포인트 ⑥ — 러닝 개그 회수.**
+컷 2에서 심고, 컷 3에서 키우고, 컷 4에서 써먹은 넥타이가 **여기서 되돌아온다.**
+그리고 이 회수가 웃기기만 한 게 아니다 —
+**"이 사람이 내 표정을 읽고 있었구나"** 를 관객이 먼저 알아챈다.
+2화의 "듣고 있었구나"를 1화 마지막에 미리 심는 것이다.
+
+⚠️ 이게 임성한 버전 대비 이 버전의 **가장 큰 구조적 이점**이다.
+웃음과 복선을 같은 컷으로 처리한다.
+
+---
+
+## 4. 두 버전 비교
+
+| 컷 | 임성한 | 홍자매 |
+|---|---|---|
+| 1 | 까치 울음 = 팔자 예언 | 말꼬리 잡기 ("진짜"가 네 번째) |
+| 2 | 풀네임 호명 + 거울 앞 맹세 | 인사 연습 + **넥타이 심기** |
+| 3 | "인생 끝나나요" | **모순되는 넥타이 검색 2개** |
+| 4 | 6배 슬로우 운명적 조우 | 슬로우 → **2초 만에 자폭** |
+| 5 | 과잉 클로즈업 + 정적 4초 | **정적을 대사로 감쌈** |
+| 6 | 3단 줌인 + 프리즈 + 징 | **티키타카 → "같이 할까요"** |
+| 7 | 정면 응시 독백 | **V.O. 혼잣말 + "더 설명드릴까요?"** |
+| 8 | 빈 공간 푸시인, 정적 4초 | **양보가 또 겹침** |
+| 9 | 격언 → 톤 붕괴 | **말장난으로 다음 컷 연결** |
+| 10 | 거의 그대로 | **넥타이 회수 + 복선** |
+
+**임성한 버전:** 웃음이 세다. 낙차가 크다. 대신 5분 내내 보면 피곤하다.
+**홍자매 버전:** 웃음이 부드럽다. **복선과 구조가 있다.** 3화 임상춘으로 넘어가기 자연스럽다.
+
+식전영상은 하객이 **처음 보는 사람들**이라는 걸 감안하면 홍자매 쪽이 안전하다.
+임성한 톤은 취향을 탄다.
+
+---
+
+## 5. 3화에서 임상춘으로 넘어가는 법
+
+1화의 홍자매 딜리버리 문단을 빼고 아래로 교체한다. **프로필은 그대로.**
+
+```
+DELIVERY (Im Sang-choon register): Plain, unpolished speech with no
+wit and no wordplay. Sentences are short and slightly clumsy. There is
+no attempt to be charming. Warmth comes from sincerity and awkwardness
+rather than from cleverness. Nothing is delivered for a laugh.
+```
+
+그리고 카메라도 바꾼다.
+
+| | 1화 (홍자매) | 3화 (임상춘) |
+|---|---|---|
+| 컷 길이 | 짧게 끊어 침 | **길게 버팀** |
+| 리액션 인서트 | 많음 | **없음** |
+| V.O. 혼잣말 | 많음 | **없음** |
+| 말장난 | 핵심 | **금지** |
+| 티키타카 | 핵심 | **한 사람씩 천천히** |
+
+**웃기던 사람들이 갑자기 안 웃길 때 하객이 조용해진다.** 그 순간이 3화다.
