@@ -15,6 +15,8 @@
 | 민준 (27) | 중저음 바리톤 | 느림·머뭇 | 부드럽고 눌림 | 서울 표준 |
 | 지원 (26, 친구) | 고음 | 아주 빠름 | 숨섞임·웃음 | 서울 구어 |
 | 정 이모 (38, 주선자) | 중음 | 느긋함 | 따뜻·약한 콧소리 | **부산 사투리** |
+| 태호 (28, 친구) | 높은 테너 | 빠름 | 밝고 약한 콧소리 | 서울 구어 |
+| 준영 (33, 친구) | 낮은 베이스바리톤 | 느림 | 건조·평평 | 서울 표준 |
 
 **서연 ↔ 지원**이 가장 가까운 쌍이다(둘 다 여성·서울말) — 음역대(중고음↔고음), 속도(고른↔아주 빠름), 질감(건조↔숨섞임) 세 축으로 벌려놨다.
 **주선자를 부산 사투리로 뺀 것**은 의도적이다. 1화에서 전화 목소리로만 등장하는데, 서울말 여성이 하나 더 늘면 서연과 섞인다.
@@ -105,6 +107,36 @@ intonation and quick, giggly bursts.
 Definitely a native South Korean speaker; never a foreign, dubbed or
 AI-narrator accent; never a calm or measured delivery; no regional dialect.
 ```
+
+### `@voice_TAEHO_v1` — 친구 태호
+
+```
+TAE-HO: A 28-year-old South Korean man with a bright, slightly nasal
+high tenor. Fast, casual Seoul Korean that rushes ahead of itself, in
+an over-confident know-it-all cadence that collapses into a mumble the
+moment he is corrected.
+Definitely a native South Korean speaker; never a foreign, dubbed or
+AI-narrator accent; never a calm, low or authoritative delivery;
+no regional dialect.
+```
+
+⚠️ `collapses into a mumble the moment he is corrected` 가 이 캐릭터의 전부다.
+**확신에 찼다가 무너지는 낙차**가 웃음을 만든다. 처음부터 자신 없으면 안 된다.
+
+### `@voice_JUNYOUNG_v1` — 친구 준영
+
+```
+JUN-YOUNG: A 33-year-old South Korean man with a low, flat, dry
+bass-baritone. Slow, clipped Seoul Korean delivered in as few words as
+possible, deadpan and entirely unbothered.
+Definitely a native South Korean speaker; never a foreign, dubbed or
+AI-narrator accent; never an animated, enthusiastic or emotional
+delivery; no regional dialect.
+```
+
+⚠️ **민준과 겹치지 않게 주의한다.** 둘 다 남성 중저음이지만,
+민준은 `soft, halting, unpracticed`이고 준영은 `low, flat, clipped, deadpan`이다.
+속도(머뭇거림↔단호함)와 질감(부드러움↔건조함)으로 갈린다.
 
 ### `@voice_JUNGIMO_v1` — 주선자 정 이모
 
