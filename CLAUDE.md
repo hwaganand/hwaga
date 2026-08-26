@@ -42,5 +42,6 @@ V.O.(내레이션), 인터뷰, 현장 대사, 전화 목소리 전부 해당.
 | `docs/voice-profiles.md` | 캐릭터별 보이스 프로필 |
 | `docs/character-reference-groom.md` | 신랑 캐릭터 레퍼런스 |
 | `docs/character-reference-bride.md` | 신부 캐릭터 레퍼런스 |
+| `docs/character-reference-support.md` | 조연(지원·준영) 캐릭터 레퍼런스 |
 | `docs/episode1-hong.md` | 1화 컷 리스트 (홍자매 · **채택본**) |
 | `docs/episode1-makjang.md` | 1화 컷 리스트 (임성한 · 보류) |

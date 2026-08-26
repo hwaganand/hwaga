@@ -14,12 +14,16 @@
 | 서연 (26) | 중고음 | 고른 페이스 | 가볍고 건조 | 서울 표준 |
 | 민준 (27) | 중저음 바리톤 | 느림·머뭇 | 부드럽고 눌림 | 서울 표준 |
 | 지원 (26, 친구) | 고음 | 아주 빠름 | 숨섞임·웃음 | 서울 구어 |
+| 준영 (28, 친구) | 중음 | 보통·짧게 끊음 | 맑고 앞으로 나옴 | 서울 표준 |
 | 정 이모 (38, 주선자) | 중음 | 느긋함 | 따뜻·약한 콧소리 | **부산 사투리** |
-| 태호 (28, 친구) | 높은 테너 | 빠름 | 밝고 약한 콧소리 | 서울 구어 |
-| 준영 (33, 친구) | 낮은 베이스바리톤 | 느림 | 건조·평평 | 서울 표준 |
 
 **서연 ↔ 지원**이 가장 가까운 쌍이다(둘 다 여성·서울말) — 음역대(중고음↔고음), 속도(고른↔아주 빠름), 질감(건조↔숨섞임) 세 축으로 벌려놨다.
+**민준 ↔ 준영**도 세 축으로 벌어져 있다 — 음역대(중저음↔중음), 속도(머뭇거림↔짧게 끊음), 질감(눌림↔맑음).
+**준영 ↔ 정 이모**는 음역대가 같지만 성별이 다르고 사투리로 갈리며, 같은 씬에 나오지 않는다.
 **주선자를 부산 사투리로 뺀 것**은 의도적이다. 1화에서 전화 목소리로만 등장하는데, 서울말 여성이 하나 더 늘면 서연과 섞인다.
+
+⚠️ **태호는 폐기됐다.** 남자 조연을 준영 한 명으로 줄이면서 프로필도 함께 삭제했다.
+지원(여자 조연) ↔ 준영(남자 조연) 1:1 대칭 구조다.
 
 ---
 
@@ -108,35 +112,37 @@ Definitely a native South Korean speaker; never a foreign, dubbed or
 AI-narrator accent; never a calm or measured delivery; no regional dialect.
 ```
 
-### `@voice_TAEHO_v1` — 친구 태호
+⚠️ **확정된 얼굴과 목소리가 일부러 어긋나 있다.** 시트의 지원은 크고 둥근
+처진 눈에 순한 인상인데, 목소리는 밝고 빠르고 잘 웃는다. 이 갭이 캐릭터다 —
+순하게 생긴 애가 제일 정확하게 찌른다.
+컷 6에서 지원은 아무 말도 안 하고 쳐다보기만 하는데, **순한 얼굴로 쳐다보는
+쪽이 압박이 더 크다.**
+
+### `@voice_JUNYOUNG_v1` — 친구 준영 ★v2
 
 ```
-TAE-HO: A 28-year-old South Korean man with a bright, slightly nasal
-high tenor. Fast, casual Seoul Korean that rushes ahead of itself, in
-an over-confident know-it-all cadence that collapses into a mumble the
-moment he is corrected.
+JUN-YOUNG: A 28-year-old South Korean man with a clear, mid-range voice
+that sits forward and light. Ordinary-paced Seoul Korean spoken in short
+finished sentences, in a mild, unassuming cadence that states an
+inconvenient fact without putting any edge on it.
 Definitely a native South Korean speaker; never a foreign, dubbed or
-AI-narrator accent; never a calm, low or authoritative delivery;
-no regional dialect.
+AI-narrator accent; never a low, deep or authoritative delivery; never a
+sarcastic, mocking or teasing tone; no regional dialect.
 ```
 
-⚠️ `collapses into a mumble the moment he is corrected` 가 이 캐릭터의 전부다.
-**확신에 찼다가 무너지는 낙차**가 웃음을 만든다. 처음부터 자신 없으면 안 된다.
+⚠️ **v1(낮은 베이스바리톤 deadpan)은 폐기됐다.** 확정된 얼굴이 동그란 안경에
+순하게 웃는 인상이라 무심한 저음이 얼굴과 싸웠다. 나이도 33 → 28로 내려
+민준과 친구 관계가 됐다. 이에 따라 2화의 `우리 와이프가 이거 좋아해`는
+`전 여친이 이거 좋아했어`로 바뀐다.
 
-### `@voice_JUNYOUNG_v1` — 친구 준영
+⚠️ `states an inconvenient fact without putting any edge on it` 가 이 캐릭터의 전부다.
+**놀리려는 게 아니라 그냥 사실을 말하는 것**이고, 악의가 없어서 더 아프다.
+비꼬는 톤을 넣는 순간 캐릭터가 죽는다 — 그래서 네거티브에 명시로 잠갔다.
 
-```
-JUN-YOUNG: A 33-year-old South Korean man with a low, flat, dry
-bass-baritone. Slow, clipped Seoul Korean delivered in as few words as
-possible, deadpan and entirely unbothered.
-Definitely a native South Korean speaker; never a foreign, dubbed or
-AI-narrator accent; never an animated, enthusiastic or emotional
-delivery; no regional dialect.
-```
-
-⚠️ **민준과 겹치지 않게 주의한다.** 둘 다 남성 중저음이지만,
-민준은 `soft, halting, unpracticed`이고 준영은 `low, flat, clipped, deadpan`이다.
-속도(머뭇거림↔단호함)와 질감(부드러움↔건조함)으로 갈린다.
+⚠️ **민준과 겹치지 않게 주의한다.** 둘 다 남성 서울말이지만
+민준은 `soft, halting, unpracticed, sits back in the throat`이고
+준영은 `clear, forward, light, short finished sentences`다.
+민준은 문장을 못 끝내고, 준영은 짧게 끝낸다. 이게 가장 큰 차이다.
 
 ### `@voice_JUNGIMO_v1` — 주선자 정 이모
 
