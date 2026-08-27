@@ -1030,7 +1030,7 @@ no change of facial identity from the reference image, no different person
 | 모드 | `omni_reference` |
 | 비율 | `16:9` (1화) / **`9:16` (2화~)** |
 | 길이 | 10초 |
-| 해상도 | 1080p (크레딧 부족 시 720p) |
+| 해상도 | **720p로 전환** (2화 컷 4부터). 컷 1~3만 1080p로 남아 있다 |
 | 오디오 | `generate_audio: true` |
 
 | 검증 항목 | 결과 |

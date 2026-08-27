@@ -83,10 +83,14 @@
 ## 2. 공통 설정
 
 ```
-model: seedance_2_5 / mode: omni_reference / 16:9
+model: seedance_2_5 / mode: omni_reference / 9:16
 generate_audio: true
+resolution: 720p
 declined_preset_id: 24bae836-2c4a-48e0-89b6-49fcc0b21612
 ```
+
+⚠️ **컷 4부터 720p로 간다.** 컷 1~3은 이미 1080p로 제출돼 있어 그대로 둔다.
+크레딧 절약 목적이고, 1화도 크레딧 부족 시점부터 720p로 대부분 만들었다.
 
 | 인물 | 컷 | 레퍼런스 |
 |---|---|---|
