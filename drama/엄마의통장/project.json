@@ -1,0 +1,62 @@
+{
+  "title": "엄마의 통장",
+  "format": "20부작 AI 가족 미스터리 드라마",
+  "aspect_ratio": "16:9",
+  "episode_target_seconds": 180,
+  "cut_duration_seconds": 15,
+  "unified_style": "cinematic photorealistic Korean live-action drama, natural skin texture, physical cine lens, 24fps, restrained saturation, warm domestic highlights and cool mystery shadows, realistic gravity and contact shadows, consistent identities across every cut",
+  "master_script": "엄마의통장_MASTER_수정본.md",
+  "name_changes": {
+    "정민호": "정태민"
+  },
+  "characters": {
+    "soonja_current": {"name": "박순자", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/박순자_현재/01_기본_전신_우아한노년_v2.png"},
+    "soonja_young": {"name": "젊은 박순자", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/박순자_젊은시절/01_기본_1970년대.png"},
+    "taesu": {"name": "정태수", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/정태수/01_기본.png"},
+    "taemin": {"name": "정태민", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/정태민/01_기본.png"},
+    "migyeong": {"name": "정미경", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/정미경/01_기본.png"},
+    "mansik_young": {
+      "name": "젊은 정만식",
+      "status": "confirmed",
+      "file": "레퍼런스_모음/01_캐릭터_현재사용/정만식_젊은시절/01_기본_감청색작업복_v5.png",
+      "expressions": "레퍼런스_모음/01_캐릭터_현재사용/정만식_젊은시절/02_정면_표정8종_v1.png",
+      "head_angles": "레퍼런스_모음/01_캐릭터_현재사용/정만식_젊은시절/03_무표정_각도8종_v1.png",
+      "outfit": "감청색 면 트윌 작업 재킷과 같은 색상·원단의 일자 작업 바지, 아이보리 니트, 검은 가죽 작업화"
+    },
+    "seongjun_current": {"name": "한성준", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/한성준_현재/01_기본.png"},
+    "seongjun_young": {"name": "젊은 한성준", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/한성준_젊은시절/01_기본.png"},
+    "byeongcheol_current": {"name": "최병철", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/최병철_현재/01_기본.png"},
+    "byeongcheol_young": {"name": "젊은 최병철", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/최병철_젊은시절/01_기본.png"},
+    "seongjun_wife_young": {"name": "젊은 성준의 아내", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/성준의아내_젊은시절/01_기본.png"},
+    "migyeong_baby": {"name": "아기 정미경", "status": "confirmed", "file": "레퍼런스_모음/01_캐릭터_현재사용/정미경_아기/01_기본.png"}
+  },
+  "episode_01": {
+    "status": "scripted",
+    "cut_count": 12,
+    "cold_open": {
+      "model": "wan3_0",
+      "status": "keyframe_pending_approval",
+      "planned_cuts": ["00A", "00B", "00C"],
+      "cut_00A": {
+        "duration_seconds": 8,
+        "resolution": "480p",
+        "estimated_credits": 8,
+        "keyframe": "storyboard/EP01_COLDOPEN_CUT00A_keyframe_v1.png",
+        "approved": false,
+        "render_status": "blocked_until_approval"
+      }
+    },
+    "storyboard": {
+      "keyframes_generated": false,
+      "approved": false
+    },
+    "video_render_allowed": false
+    ,
+    "opening_fire_rescue": {
+      "status": "prompt_ready_storyboard_pending",
+      "duration_seconds": 15,
+      "prompt_file": "scripts/EP01_CUT01_1979_화재구조_한영프롬프트.md",
+      "video_render_allowed": false
+    }
+  }
+}
