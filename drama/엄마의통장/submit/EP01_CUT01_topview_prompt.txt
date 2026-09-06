@@ -1,0 +1,69 @@
+SCENE CONTEXT
+
+EXACTLY TWO CHARACTERS — NO DUPLICATES: Jeong Mansik and Park Soonja. Inside a small Korean garment factory during a fire in 1979. A fifteen-second rescue scene composed of exactly three hard-cut shots. The emergency is already in progress in the first visible frame.
+
+ACTIVE REFERENCES
+
+<<<Image1>>> is Mansik. It is the identity anchor controlling his face, layered 1970s black hair, body proportions, and his deep-indigo cotton work jacket with matching work trousers over an ivory knit.
+
+<<<Image2>>> is Soonja. It is the identity anchor controlling her face, hair, body proportions, floral blouse, and olive vest. Her skirt is burgundy.
+
+<<<Image3>>> is the garment factory. It controls factory geometry, sewing-machine arrangement, materials, and 1979 period atmosphere only. It does not control camera angle, and it does not control the fire — the factory in this scene is burning as described below.
+
+GEO SPATIAL LAYOUT
+
+A collapsed steel storage rack pins Soonja's leg in the frame-left midground. The factory exit is rear-left. Flames climb the rear-right wall and ceiling. Mansik enters through the frame-right aisle. Two rows of sewing machines lead toward the exit. The camera remains on the same side of the action axis throughout. Soonja remains frame-left and Mansik remains frame-right in all three shots.
+
+FIRST FRAME AND SPATIAL BLOCKING
+
+The handheld wide opens mid-action. Soonja is already prone on the dusty floor, supporting herself on both elbows while the rack's lower crossbar traps her leg above the ankle. Mansik is already running through smoke from the right aisle. Burning fabric swings behind them and the rear-left exit remains visible.
+
+FORMAT AND CAMERA
+
+16:9, 24fps, fifteen seconds, exactly three hard-cut shots. Shoulder-mounted handheld camera with operator breath, physical mass, organic weight shifts, and restrained imperfect corrections.
+
+Shot 1: 47-degree FOV, camera four meters away at eye level. Show Mansik running toward Soonja while keeping the exit and spreading fire readable. 4.0s HARD CUT.
+
+Shot 2: 29-degree FOV, camera two meters away at waist height. Frame Mansik lifting the rack and Soonja pulling her leg free. 10.0s HARD CUT.
+
+Shot 3: 20-degree tight two-shot with a slow physical push-in along the same action axis. Hold Mansik, Soonja, and the newly blocked exit in one readable composition.
+
+ACTION TIMING
+
+0-4s: Mansik sprints down the right aisle, drops one knee beside Soonja, and grips the steel crossbar with both hands.
+
+4-10s: He plants both feet and lifts through his legs, back, and shoulders. His knees and forearms visibly tremble under the weight. Soonja pushes backward on her elbows and drags her trapped leg free, her shoe scraping through dust. He shouts his line once at approximately 7 seconds, at the top of the lift, with his jaw clenched and his head turned toward her.
+
+10-15s: Mansik supports Soonja around the waist and moves one step toward the exit. A burning ceiling beam crashes across their escape route, throwing sparks, dust, and burning fabric outward. Both recoil. Mansik pulls Soonja behind his body and shields her while staring at the blocked exit.
+
+PHYSICS
+
+The rack's weight is visible through Mansik's bent knees, loaded shoulders, wrist angles, and shifting center of gravity. The rack settles with a short steel rebound after Soonja escapes. The falling beam transfers impact into floor dust and loose fabric; glowing fragments fall and settle under gravity.
+
+LIGHTING
+
+Rear-right flames provide a fluctuating orange key and edge light. Failing fluorescent tubes provide cold overhead fill. Smoke rays, visible eye catchlights, and readable facial detail remain present throughout.
+
+AUDIO
+
+Exactly one speaking voice exists in this scene. Mansik speaks; Soonja does not. There are no offscreen voices, no crowd, no shouting from beyond the frame, and no radio or announcement.
+
+Mansik's line, spoken once and nothing else: "순자야, 일어나!"
+
+Mansik's voice: a young Korean man in his late twenties. Smoke-roughened throat, short clipped breaths between syllables, a chest-register shout driven from the diaphragm that does not crack into head voice, and a hard imperative ending that does not rise in pitch. Urgency comes from breath and attack, not from raising the pitch.
+
+Soonja is entirely wordless. Her coughing, ragged breathing, and low strained effort sounds as she drags her leg free are audible, but she forms no words, no name, and no cry for help.
+
+Ambient bed, all diegetic and recorded in the same room acoustic: roaring flames, burning fabric, strained and buckling metal, shoe friction dragging through dust, and the heavy beam impact at the end.
+
+Mix: the ambient bed sits under the line, never over it. The line stays fully intelligible above the fire. Dialogue is close and dry with the natural short reverb of a low-ceilinged factory floor; the fire is wide and enveloping.
+
+No background music, no BGM, no soundtrack, no score, no musical stings — diegetic sound only.
+
+POSITIVE LOCKS
+
+Exactly two people throughout. Both identities and costumes match their corresponding reference images. The factory geometry, character positions, action axis, and direction of the spreading fire remain stable. The final frame leaves the burning beam across the exit with Mansik shielding Soonja inside the factory.
+
+cinematic photorealistic Korean live-action drama, natural skin texture, physical cine lens, 24fps, restrained saturation, warm domestic highlights and cool mystery shadows, realistic gravity and contact shadows, consistent identities across every cut
+
+No background music, no BGM, no soundtrack — only the specified Korean dialogue and natural diegetic sound.

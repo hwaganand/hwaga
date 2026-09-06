@@ -1,0 +1,20 @@
+{
+  "_note": "생성 대기 상태. topview_generate_video 호출 전 사용자 승인 필요.",
+  "_uploaded_at": "2026-09-06",
+  "_reference_source": "260906_0001_video_edit_8112.mp4 에서 추출한 프레임 3장 (원본 레퍼런스 시트 아님)",
+  "req": {
+    "taskType": "omni_reference",
+    "model": "Seedance 2.0",
+    "omniReferenceTaskType": "auto",
+    "aspectRatio": "16:9",
+    "duration": 15,
+    "resolution": 720,
+    "generatingCount": 1,
+    "inputImages": [
+      { "fileId": "38db0605f2634d30b72e2570e083df2a", "name": "Image1", "_desc": "젊은 정만식 클로즈업 — 얼굴, 장발, 감청색 작업 재킷, 아이보리 니트" },
+      { "fileId": "22170c79f24a4f6792bda2ced5df19e0", "name": "Image2", "_desc": "젊은 박순자 클로즈업 — 얼굴, 머리, 꽃무늬 블라우스, 올리브 조끼" },
+      { "fileId": "cc7125ae6c93437db5f56a568946f5ee", "name": "Image3", "_desc": "1979 봉제공장 내부 와이드 — 구조, 재질, 시대 분위기" }
+    ],
+    "prompt": "SEE submit/EP01_CUT01_topview_prompt.txt"
+  }
+}
